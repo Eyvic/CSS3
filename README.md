@@ -1,2 +1,2 @@
-# css3-test
-some small test with core css3 and html
+# html5&css3-effect
+some small test with css3 and html5
