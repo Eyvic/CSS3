@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#text {
+  position: absolute;
+  top: 250px;
+  left: 350px;
+  font-family: arial black;
+  font-size: 65px;
+}
+
+#circle1 {
+  height: 30px;
+  width: 30px;
+  background-color: #000;
+  position: absolute;
+  top: 290px;
+  left: 700px;
+  border-radius: 50%;
+  animation: move 4s;
+}
+
+#circle2 {
+  height: 30px;
+  width: 30px;
+  background-color: #000;
+  position: absolute;
+  top: 290px;
+  left: 750px;
+  border-radius: 50%;
+  animation: move 4.3s;
+}
+
+#circle3 {
+  height: 30px;
+  width: 30px;
+  background-color: #000;
+  position: absolute;
+  top: 290px;
+  left: 800px;
+  border-radius: 50%;
+  animation: move 4.6s;
+}
+
+@keyframes move {
+  0% {background-color: #000; top: 290px;}
+  20% {background-color: #0fc; top: 200px;}
+  40% {background-color: #39f; top: 290px;}
+  60% {background-color: #000; top: 200px;}
+  80% {background-color: #0fc; top: 290px;}
+  90% {background-color: #39f; top: 200px;}
+  100% {background-color: #000; top: 290px;}
+}
