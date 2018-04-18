@@ -1,2 +1,2 @@
-# HTML5-CSS3
-Basic practice 
+# CSS3
+Basic demos with css3
